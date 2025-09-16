@@ -2811,8 +2811,7 @@ public class Settings {
                 JOptionPane.INFORMATION_MESSAGE,
                 null,
                 options,
-                null
-                );
+                null);
 
         if (response == JOptionPane.YES_OPTION) {
           String portableModeAcceptMessage =
