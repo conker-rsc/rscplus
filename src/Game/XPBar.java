@@ -314,6 +314,7 @@ public class XPBar {
         x,
         y,
         textColour,
+        true,
         false);
 
     // Option 6
