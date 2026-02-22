@@ -79,7 +79,7 @@ public class XPDropHandler {
       }
 
       Renderer.drawShadowText(
-          g, text, (XPBar.xp_bar_x + (XPBar.bounds.width / 2)), (int) y, this.color, true, true);
+          g, text, (XPBar.xp_bar_x + (XPBar.bounds.width / 2)), (int) y, this.color, true);
       y -= (float) Renderer.height / 12.0f * Renderer.delta_time;
     }
 
